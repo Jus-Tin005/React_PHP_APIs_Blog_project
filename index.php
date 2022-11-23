@@ -5,9 +5,9 @@ ini_set('display_errors', '1');
 require "./backend/services/DB.php";
 use services\DB;
 
-require "./backend/controllers/PostsController.php";
-use Backend\Controllers\PostsController;
+// require "./backend/controllers/PostsController.php";
+// use Backend\Controllers\PostsController;
 
 // var_dump(new DB());
-(new PostsController)->getPosts();
+// (new PostsController)->getPosts();
 ?>
